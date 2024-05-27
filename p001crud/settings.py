@@ -76,12 +76,8 @@ WSGI_APPLICATION = 'p001crud.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'aws-0-us-east-1.pooler.supabase.com',
-        'NAME': 'postgres',
-        'PORT': 5432,
-        'USER': 'postgres.tavspzfsheryjkkplhhh',
-        'PASSWORD': 'pDKzYB$x5zLVj38!'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
